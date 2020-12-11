@@ -168,7 +168,7 @@ struct rtw_wdev_priv {
 	bool block_scan;
 	bool power_mgmt;
 
-	#if LINUX_VERSION_CODE >= KERNEL_VERSION(5,8,0)
+	#if LINUX_VERSION_CODE >= KERNEL_VERSION(5,9,0)
 	u32 mgmt_mask;
 	#endif
 
